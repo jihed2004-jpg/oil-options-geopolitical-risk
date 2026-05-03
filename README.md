@@ -38,12 +38,14 @@ Benchmark: 100k MC paths in ~0.3s vs ~3.6s in Python (NumPy). The speed-up matte
 ## Repo structure
 
 .
-├── GeoPol_Risk_Monitor.ipynb   # Main analytics notebook
-├── pricer/
-│   ├── main.cpp                # C++ entry point
-│   ├── black_scholes.hpp       # BS formula + Greeks
-│   └── monte_carlo.hpp         # MC engine (100k paths)
-└── README.md
+GeoPol_Risk_Monitor.ipynb   # Main analytics notebook
+
+pricer
+ 
+  main.cpp                # C++ entry point
+  black_scholes.hpp       # BS formula + Greeks
+  monte_carlo.hpp         # MC engine (100k paths)
+  README.md
 
 ---
 
